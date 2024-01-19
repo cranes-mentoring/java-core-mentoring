@@ -1,5 +1,6 @@
-### Java mentoring (base)
+## Java mentoring [core]
 
+### Topics:
 1. types
 2. functions 
 3. OOP
@@ -9,3 +10,6 @@
 7. network
 8. build the project
 9. threads
+
+---
+Also, you can solve tasks here: "/practice"
