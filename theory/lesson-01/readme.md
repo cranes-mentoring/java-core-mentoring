@@ -1,3 +1,40 @@
+Let's start with a simple Java program. We'll create a program that greets the user. Here's an example code:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Print a greeting to the console
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+Now, let's break down what's happening:
+
+- `public class HelloWorld`: This defines a class named "HelloWorld." In Java, every program consists of at least one class.
+
+- `public static void main(String[] args)`: This is the `main` method, which serves as the entry point for the program. All Java programs start execution from this method.
+
+- `System.out.println("Hello, World!");`: This line of code prints the text "Hello, World!" to the console. The `println` method is responsible for printing the string and adds a newline at the end.
+
+Now, let's see how to run this program:
+
+1. Write this code in a text editor such as Notepad, Visual Studio Code, Eclipse, or IntelliJ IDEA.
+
+2. Save the file with the ".java" extension, for example, "HelloWorld.java."
+
+3. Open the command prompt (or terminal) and navigate to the directory where your file is located.
+
+4. Compile the program by entering `javac HelloWorld.java` in the command prompt.
+
+5. Run the compiled program by entering `java HelloWorld`.
+
+You should see the output "Hello, World!" on the screen.
+
+This is a simple program that serves as a great starting point for beginners. Gradually, you can explore more advanced concepts such as variables, conditional statements, loops, functions, and object-oriented programming (OOP).
+
+---
+
 Agenda:
 
 1. Variables and types
@@ -6,7 +43,7 @@ Agenda:
 Let’s start with the general and important things that you really should have learned earlier. Java, like many languages, has two types of variables:
 
 Primitives:
-![alt text](img/1*sY7Bhksyl9qRUpg0npCWog.webp)  
+[alt text](img/1*sY7Bhksyl9qRUpg0npCWog.webp)  
 
 Non-Primitive: String, Arrays and Classes.
 
@@ -73,16 +110,16 @@ When we have too many conditions, and they are all tied to the same type of vari
 // case 
 int expression = 9;
 switch(expression) {
-  case 2:
+    case 2:
     System.out.println("Small Size");
     break;
 
-  case 3:
+    case 3:
     System.out.println("Large Size");
     break;
-        
-  // default case
-  default:
+
+    // default case
+    default:
     System.out.println("Unknown Size");
 }
 ```
@@ -90,12 +127,12 @@ Also, up Java to version 19 or more and we can use expression:
 ```dtd
 Day day = Day.WEDNESDAY;
 var resultDay = switch (day) {
-        case MONDAY, FRIDAY, SUNDAY -> 6;
-        case TUESDAY                -> 7;
-        case THURSDAY, SATURDAY     -> 8;
-        case WEDNESDAY              -> 9;
-        default -> throw new IllegalStateException("Invalid day: " + day);
-    } 
+    case MONDAY, FRIDAY, SUNDAY -> 6;
+    case TUESDAY                -> 7;
+    case THURSDAY, SATURDAY     -> 8;
+    case WEDNESDAY              -> 9;
+    default -> throw new IllegalStateException("Invalid day: " + day);
+} 
 
 System.out.println(resultDay);    
 ```
