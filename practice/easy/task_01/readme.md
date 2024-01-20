@@ -1,7 +1,7 @@
 ## Task 1
 
 Create a console program that can read a file like:
-ID, city, temparature, date (mm/dd/yyyy)
+ID, city, temperature, date (mm/dd/yyyy)
 
 ..............................................    
 1 Toronto +1 01/01/2024  
