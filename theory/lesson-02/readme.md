@@ -6,7 +6,7 @@ Agenda:
 Let’s start with the general and important things that you really should have learned earlier. Java, like many languages, has two types of variables:
 
 Primitives:
-![alt text](img/1*sY7Bhksyl9qRUpg0npCWog.webp)  
+[alt text](img/1*sY7Bhksyl9qRUpg0npCWog.webp)
 
 Non-Primitive: String, Arrays and Classes.
 
@@ -73,16 +73,16 @@ When we have too many conditions, and they are all tied to the same type of vari
 // case 
 int expression = 9;
 switch(expression) {
-  case 2:
+    case 2:
     System.out.println("Small Size");
     break;
 
-  case 3:
+    case 3:
     System.out.println("Large Size");
     break;
-        
-  // default case
-  default:
+
+    // default case
+    default:
     System.out.println("Unknown Size");
 }
 ```
@@ -90,12 +90,12 @@ Also, up Java to version 19 or more and we can use expression:
 ```dtd
 Day day = Day.WEDNESDAY;
 var resultDay = switch (day) {
-        case MONDAY, FRIDAY, SUNDAY -> 6;
-        case TUESDAY                -> 7;
-        case THURSDAY, SATURDAY     -> 8;
-        case WEDNESDAY              -> 9;
-        default -> throw new IllegalStateException("Invalid day: " + day);
-    } 
+    case MONDAY, FRIDAY, SUNDAY -> 6;
+    case TUESDAY                -> 7;
+    case THURSDAY, SATURDAY     -> 8;
+    case WEDNESDAY              -> 9;
+    default -> throw new IllegalStateException("Invalid day: " + day);
+} 
 
 System.out.println(resultDay);    
 ```

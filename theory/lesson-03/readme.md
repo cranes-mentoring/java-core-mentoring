@@ -1,4 +1,4 @@
-### 1. **Creating Functions and Methods:**
+### **Creating Functions and Methods:**
 
 #### Example:
 

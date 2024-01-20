@@ -1,15 +1,19 @@
 ## Java mentoring [core]
 
-### Topics:
-1. types
-2. functions 
-3. OOP
-4. jvm and gc
-5. Exceptions 
-6. I/O
-7. network
-8. build the project
-9. threads
+`Please, read useful books, if you can. Here the list, choose a couple: books.md`
+
+**Lessons:**  
+- [1] first app and first start. Types and functions.  
+- [2] variables and types, switch and case. try, catch and finally.  
+- [3] functions one more time.
+- [4] OOP.
+- [5] Exceptions.
+- [6] Collections. Sorting.
+- [7] IO
+- [8] JVM and GC.
+- [9] Build. 
+- [10] Web.
+- [11] Threads.
 
 ---
 Also, you can solve tasks here: "/practice"
